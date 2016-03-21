@@ -1,0 +1,24 @@
+.background{
+    width: 1358x;
+    height:900px;
+    background-image:url(img/Contact/background.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.form{
+    margin-left:250;
+    margin-top: 250;
+}
+#body{
+    position:absolute;
+    width:520;
+    height:777;
+    margin-left:631 ;
+    margin-top:69;
+}
+#body:hover{
+    width:520;
+    height:777;
+    background-image: url(img/Contact/me.png);
+}

@@ -1,0 +1,108 @@
+.background{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    height:1000px;
+    width:1500px;
+    background-image: url(img/About/background.png);
+    background-repeat: no-repeat;
+    overflow: visible;
+    border: none;
+}
+#box{
+    position:absolute;
+    padding: 0px;
+    margin-left:110px;
+    margin-top: 46px;
+    height: 800px;
+    width: 547px;
+    background-image: url(img/About/box.png);
+}
+#box:hover{
+    position:absolute;
+    padding: 0px;
+    margin-left:110px;
+    margin-top: -82px;
+    height: 927px;
+    width: 910px;
+    background-image: url(img/About/box_hover.png);
+    background-repeat: no-repeat;
+}
+
+#camera{
+    position:absolute;
+    padding: 0px;
+    margin-left:698 ;
+    margin-top:283 ;
+    height: 142px;
+    width: 189px;
+    background-image: url(img/About/camera.png);
+}
+#camera:hover{
+    position:absolute;
+    padding: 0px;
+    margin-left:453 ;
+    margin-top:127 ;
+    height: 298px;
+    width: 434px;
+    background-image: url(img/About/camera_hover.png);
+}
+
+#note{
+    position:absolute;
+    padding: 0px;
+    margin-left:676 ;
+    margin-top:530 ;
+    height: 176;
+    width: 224;
+    background-image: url(img/About/note.png);
+}
+#note:hover{
+    position:absolute;
+    padding: 0px;
+    margin-left:501 ;
+    margin-top:376 ;
+    height: 330;
+    width: 399;
+    background-image: url(img/About/note_hover.png);
+}
+
+#me{
+    position:absolute;
+    padding: 0px;
+    margin-left: 943;
+    margin-top: 156;
+    height: 603;
+    width:212 ;
+    background-image: url(img/About/me.png);
+}
+#me:hover{
+    position:absolute;
+    padding: 0px;
+    margin-left: 599;
+    margin-top: 19;
+    height: 740;
+    width:556 ;
+    background-image: url(img/About/me_hover.png);
+    background-repeat: no-repeat;
+}
+
+#pen{
+    position:absolute;
+    padding: 0px;
+    margin-left: 1226;
+    margin-top: 114;
+    height: 664;
+    width: 35;
+    background-image: url(img/About/pen.png);
+}
+#pen:hover{
+    position:absolute;
+    padding: 0px;
+    margin-left: 980;
+    margin-top: 114;
+    height: 664;
+    width: 350;
+    background-image: url(img/About/pen_hover.png);
+}
+

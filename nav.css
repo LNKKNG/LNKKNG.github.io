@@ -1,0 +1,67 @@
+
+#button{
+    /*高度設定*/
+    height: 80px;
+   
+    /*文字設定*/
+    font-weight: bolder;
+    color:aquamarine;
+    font-size: 14px;
+    text-align: center;
+    
+    /*將預設的邊距清除*/
+    margin: 0px;
+    
+    /*將清單預設的內距清除*/
+    padding: 0px;
+}
+
+#button li{
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    /*讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */
+    float:left;
+    /*設定清單文字範圍的寬度*/
+    width:80px;
+    height: 80px;
+    
+    /*去除清單文字前面的小點*/
+    list-style-type: none;
+    
+    text-align: center;
+    background-color:#FFFFFF;
+ 
+    /*設定字距為2px*/
+    letter-spacing: 2px;
+    
+    /*右邊留白1象素*/
+    margin-right: 10px;
+}
+
+#button li a{
+    
+    border-radius: 50%;
+    /*連結範圍充滿整個區塊*/
+    display: block;
+    
+    /*單個連結範圍寬度和高度*/
+    width: 80px;
+    height: 80px;
+    
+    
+    /*連結的文字顏色*/
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+#button li a:hover{
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     background-image: url(img/hover.png);
+    /*設定滑鼠移過時,清單改變的底色設定*/
+    color: ##00CCFF;
+
+}
+

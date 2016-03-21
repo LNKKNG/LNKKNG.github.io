@@ -1,0 +1,60 @@
+.background {
+    padding: 0px;
+    margin: 0px;
+    position:static;
+    height:1050px;
+    width:1350px;
+    background-color:#FFFFFF;
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-position:left top;
+    overflow:visible;
+    border: none;
+}
+#photoone{
+    position:absolute;
+    padding: 0px;
+    margin-left:0px;
+    margin-top:910px;
+    height:383px;
+    width:440px;
+    background-image: url(img/ABOUT.jpg);
+    background-repeat:no-repeat;
+}
+#phototwo{
+    position:absolute;
+    display: block;
+    padding: 0;
+    margin-left:455;
+    margin-top:910;
+    height: 382px;
+    width: 440px;
+    background-image:url(img/WORK.jpg);
+    background-repeat:no-repeat;
+}
+#photothree{
+    position:absolute;
+    display: block;
+    padding: 0;
+    margin-left:910;
+    margin-top:910;
+    height: 384px;
+    width: 440px;
+    background-image: url(img/CONTACT.jpg);
+    background-repeat:no-repeat;
+}
+#photoone:hover{
+    height:383px;
+    width:440px;
+    background-image: url(img/ABOUThover.jpg);
+}
+#phototwo:hover{
+    height:382px;
+    width:440px;
+    background-image: url(img/WORKhover.jpg);
+}
+#photothree:hover{
+    height: 384px;
+    width: 440px;
+    background-image: url(img/CONTACThover.jpg);
+}

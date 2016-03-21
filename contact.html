@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="nav.css" media="screen"/>
+    </head>
+
+<body class="background">
+    
+     <ul id="button">
+               <li><a href="index.html"><img src="img/home.png"></a></li>
+               <li><a href="about.html"><img src="img/me.png"></a></li>
+               <li><a href="works.html"><img src="img/works.png"></a></li>
+               <li><a href="contact.html"><img src="img/mail2.png"></a></li>
+           </ul>
+    
+    <div id=body></div>
+    
+    <div class=form>
+    <form>
+    <div style="color:#0066CC;font-size:30">
+        <label for="name"><span class="require">*</span>Name</label>
+        <input type="text" name="name" id="Cname" size="20" tabindex="1"  reqiured/>
+        </div>
+    <br><br>
+    <div style="color:#0066CC;font-size:30">
+        <label for="phone"><span class="reqiure">*</span>Phone</label>
+        <input type="text" name="phone" id="phone" maxlength="10" size="20" tabindex="2" required pattern="[0-9]*" title="只能使用數字">
+        </div>
+    <br><br>
+    <div style="color:#0066CC;font-size:30">
+        <label for="email"><span class="require">*</span>Email</label>
+        <input type="text" size="20" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9._]+" title="只接受標準電子郵件" tabindex="3">
+        </div>
+    <br><br>
+    <div>
+        <label for="comment"><span class="require"></span></label>
+        <textarea cols="40" rows="15" name="comment" id="comment" required tabindex="4"></textarea>    
+        </div>
+      
+    <div>
+        <br><input type=submit value=送出 tabindex="5">
+        <input type=reset value=重填 tabindex="6">
+        </div>
+    </form>
+    </div>
+    
+    
+    
+    
+    </body>
+</html>
